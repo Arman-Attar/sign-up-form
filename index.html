@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
     <script src="./script.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="side-banner"></div>
+    <div class="content">
+      <p>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams. <br />Sign up
+        <em>now</em> to get started.<br />
+      </p>
+      <p>You <em>know</em> you want to.</p>
+      <div class="form-container">
+        <form id="form" action="#">
+          <h3>Let's do this!</h3>
+          <div class="form-left-side">
+            <label for="fname">First name<br /></label>
+            <input type="text" id="fname" name="fname" /><br />
+
+            <label for="email">Email<br /></label>
+            <input type="email" id="email" name="email" /><br />
+
+            <label for="password">Password<br /></label>
+            <input type="password" id="password" name="password" /><br />
+          </div>
+
+          <div class="form-right-side">
+            <label for="lname">Last name<br /></label>
+            <input type="text" id="lname" name="lname" /><br />
+
+            <label for="number">Phone number<br /></label>
+            <input type="number" id="number" name="number" /><br />
+
+            <label for="confirm">Confirm Password<br /></label>
+            <input type="password" id="confirm" name="confirm" /><br />
+          </div>
+
+          <button>Create Account</button>
+
+          <span>Already have an account? <a href="#">Log in</a></span>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
