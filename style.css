@@ -3,6 +3,7 @@ body{
     min-height: 100vh;
     margin: 0;
     box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 .side-banner {
@@ -19,7 +20,6 @@ body{
     gap: 5px;
     position: relative;
     top: 25vh;
-    padding: 10px;
 }
 
 .logo {
@@ -29,6 +29,8 @@ body{
 
 h1 {
     color: white;
+    font-family: "Lilita One", serif;
+    font-size: 50px;
 }
 
 .content {
@@ -41,7 +43,8 @@ h1 {
 
 .text {
     font-size: 20px;
-    padding: 0px 200px 50px 50px;
+    padding: 0px 250px 20px 50px;
+    font-weight: bold;
 }
 
 .form-container {
@@ -49,17 +52,27 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: 0px 50px 50px 50px;
+    box-shadow: 0px 3px rgba(0, 0, 1, 0.2);
 }
 
 #form {
     display: flex;
     text-transform: uppercase;
     gap: 50px;
-    font-size: 15px;
+    font-size: 12px;
+    color: gray;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 input {
     width: 250px;
+}
+
+label, input {
+    display: block;
 }
 
 .submit {
