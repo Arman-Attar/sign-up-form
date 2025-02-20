@@ -75,6 +75,10 @@ label, input {
     display: block;
 }
 
+input[type="password"]:invalid {
+    border-color: red;
+}
+
 .submit {
     display: flex;
     flex-direction: column;
@@ -84,7 +88,12 @@ label, input {
 
 button {
     width: 200px;
-    height: 30px;
+    height: 40px;
+    background-color: #f7f30c;
+    border-radius: 10px;
+    border: 0;
+    font-weight: bold;
+    box-shadow: 1px 2px;
 }
 
 
