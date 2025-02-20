@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.side-banner {
+    width: 35vw;
+    background-image: url(./images/img.jpg);
+    background-size: cover;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 1, 0.6);
+    gap: 5px;
+    position: relative;
+    top: 25vh;
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: beige;
+    width: 65vw;
+}
+
+.text {
+    font-size: 20px;
+    padding: 80px 200px 50px 50px;
+}
+
+.form-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#form {
+    display: flex;
+}
+
+
+
+
+
