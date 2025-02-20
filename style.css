@@ -79,6 +79,10 @@ input[type="password"]:invalid {
     border-color: red;
 }
 
+input:focus{
+    box-shadow: 2px 2px rgba(22, 22, 208, 0.2);
+}
+
 .submit {
     display: flex;
     flex-direction: column;
