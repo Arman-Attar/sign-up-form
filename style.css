@@ -41,17 +41,37 @@ h1 {
 
 .text {
     font-size: 20px;
-    padding: 80px 200px 50px 50px;
+    padding: 0px 200px 50px 50px;
 }
 
 .form-container {
     background-color: white;
     display: flex;
     flex-direction: column;
+    padding: 0px 50px 50px 50px;
 }
 
 #form {
     display: flex;
+    text-transform: uppercase;
+    gap: 50px;
+    font-size: 15px;
+}
+
+input {
+    width: 250px;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+
+button {
+    width: 200px;
+    height: 30px;
 }
 
 
